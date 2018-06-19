@@ -535,6 +535,10 @@ LOU = {
 	color = rgb { 195 183 184 }
 	color_ui = rgb { 200 182 181 }
 }
+CSA = {
+	color = rgb { 144 144 144 }
+	color_ui = rgb { 146 146 146 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

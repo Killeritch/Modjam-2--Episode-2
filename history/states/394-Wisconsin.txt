@@ -7,13 +7,13 @@ state={
 	}
 
 	history={
-		owner = USA
+		owner = GTL
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
 
 		}
-		add_core_of = USA
+		add_core_of = GTL
 		victory_points = {
 			12357 5 
 		}

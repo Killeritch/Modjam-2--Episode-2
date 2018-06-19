@@ -5,8 +5,8 @@
  FLR_neutrality:0 "'Iishraq"
  FLR_neutrality_DEF:0 "the 'Iisraq"
 
- GTL_neutrality:0 "Great Lakes"
- GTL_neutrality_DEF:0 "the Great Lakes"
+ GTL_neutrality:0 "Combined States"
+ GTL_neutrality_DEF:0 "the Combined States"
 
 
  SLV_neutrality:1 "Slave Revolt"
@@ -17,3 +17,6 @@
 
  LOU_neutrality:1 "Louisiana Kingdom"
  LOU_neutrality_DEF:1 "the Kingdom of Louisiana"
+
+ CSA_neutrality:1 "Confederacy"
+ CSA_neutrality_DEF:1 "The Confederacy"
