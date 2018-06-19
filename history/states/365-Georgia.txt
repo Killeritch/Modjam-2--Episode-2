@@ -1,0 +1,38 @@
+
+state={
+	id=365
+	name="STATE_365"
+
+	history={
+		owner = SLV
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			air_base = 2
+			11975 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = SLV
+		victory_points = {
+			12384 10 
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		638 1433 1480 1547 1556 7583 7612 9996 10407 10437 10465 10492 11975 12325 12353 12384 12470 12498 
+	}
+	manpower=2908504
+	buildings_max_level_factor=1.000
+	state_category=city
+}

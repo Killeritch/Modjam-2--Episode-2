@@ -1,0 +1,19 @@
+﻿l_english:
+ SIO_neutrality:1 "Sioux"
+ SIO_neutrality_DEF:1 "the Lakota Sioux"
+
+ FLR_neutrality:0 "'Iishraq"
+ FLR_neutrality_DEF:0 "the 'Iisraq"
+
+ GTL_neutrality:0 "Great Lakes"
+ GTL_neutrality_DEF:0 "the Great Lakes"
+
+
+ SLV_neutrality:1 "Slave Revolt"
+ SLV_neutrality_DEF:1 "the Slave Revolt"
+
+ APL_neutrality:1 "Appalachian Republic"
+ APL_neutrality_DEF:1 "the Appalachian Republic"
+
+ LOU_neutrality:1 "Louisiana Kingdom"
+ LOU_neutrality_DEF:1 "the Kingdom of Louisiana"

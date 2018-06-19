@@ -1,0 +1,23 @@
+
+state={
+	id=487
+	name="STATE_487"
+
+	history={
+		owner = SPU
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = SPU
+
+	}
+
+	provinces={
+		2160 5188 5216 8211 8240 10924 10960 10982 10996 12902 12916 12917 12973 13206 
+	}
+	manpower=334500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
