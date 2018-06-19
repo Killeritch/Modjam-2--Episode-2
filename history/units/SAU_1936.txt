@@ -1,0 +1,740 @@
+﻿division_template = {
+	name = "Alfurqat Almasha"		# 'Infantry Division' - Represents local tribal levies (militia)
+
+	division_names_group = SAU_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Alfurqat Alfursan"		# Camel-mounted levies (militia)
+
+	division_names_group = SAU_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Alfurqat Aljabalia"				# Mountain Division
+
+	division_names_group = SAU_MTN_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+
+units = {
+	##### Royal Saudi Army #####
+	division = {
+		#name = "Alfursan Almalika 'Medina'"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7934
+		division_template = "Alfurqat Alfursan"			
+		start_experience_factor = 0.1	
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		#name = "Alfurqat Ar Riyad"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12727
+		division_template = "Alfurqat Almasha"		
+		start_experience_factor = 0.1	
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		#name = "Alfurqat Jiddah"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 12883
+		division_template = "Alfurqat Almasha"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	##### Royal Yemeni Army #####
+	division = {
+		#name = "Alfurqat Alfursan Almalika"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 10840
+		division_template = "Alfurqat Alfursan"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		#name = "Alfurqat Almasha Almalika"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 10840
+		division_template = "Alfurqat Almasha"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	##### Royal Iraqi Army #####
+	division = {
+		#name = "1 Alfurqat"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 2097
+		division_template = "Alfurqat Almasha"			
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		#name = "2 Alfurqat"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10106
+		division_template = "Alfurqat Aljabalia"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	### Middle East Command ###
+	#Sudan
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 12806
+		division_template = "Alfurqat Almasha"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+
+	}
+	#Palestine & Transjordan
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 4206
+		division_template = "Alfurqat Almasha"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	#Aden
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 12821
+		division_template = "Alfurqat Almasha"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	#Egypt
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 7011
+		division_template = "Alfurqat Almasha"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 1155
+		division_template = "Alfurqat Almasha"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4076
+		division_template = "Alfurqat Alfursan"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}		
+
+	##### Commando Superiore Africa #####
+	# Subordinate to Theater #
+	division = { # 
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 1149 
+		division_template = "Alfurqat Almasha"	# CC.NN. militia, lower training and equipment 
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.5 
+	} 
+	division = { # 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		} #  "2a Divisione Coloniale 'Libia'" 
+		location = 1130 
+		division_template = "Alfurqat Almasha" # Colonial militia, lower training and equipment
+		start_equipment_factor = 0.5 
+	}	
+
+
+	##### North African Theatre #####
+	### Army: Troupes de Alger ###
+	# XIXe Corps d'Armée (Région Militaire in 1936) -- Alger
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 1145
+		division_template = "Alfurqat Almasha" 	# Colonial unit, reserve equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 1145
+		division_template = "Alfurqat Almasha" 	# Colonial unit, reserve equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 1145
+		division_template = "Alfurqat Almasha" 	# Colonial unit, reserve equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 1145
+		division_template = "Alfurqat Almasha" 	# Colonial unit, reserve equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	# attached directly to Army
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 7132
+		division_template = "Alfurqat Almasha" 	# Colonial unit, reserve equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 7132
+		division_template = "Alfurqat Almasha" 	# Colonial unit, reserve equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 7132
+		division_template = "Alfurqat Alfursan" 	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	
+	### Army: Protectorat de Tunisie ### -- Tunis
+	division= {	# "Division de Tunise"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 11969
+		division_template = "Alfurqat Almasha" 	# Colonial unit, reserve equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "Division de Sousse"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 9994
+		division_template = "Alfurqat Almasha" 	# Colonial unit, reserve equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+
+	### Army: Protectorat du Maroc ### -- Casablanca
+	division= {	# "Division de Meknès"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 7069
+		division_template = "Alfurqat Almasha" 	# Colonial unit, reserve equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "Division de Casablanca"	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 7069
+		division_template = "Alfurqat Almasha" 	# Colonial unit, reserve equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "Division de Fès"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		}
+		location = 7100
+		division_template = "Alfurqat Almasha" 	# Colonial unit, reserve equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "Division de Marrakech"	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		}
+		location = 7069
+		division_template = "Alfurqat Almasha" 	# Colonial unit, reserve equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 7100
+		division_template = "Alfurqat Alfursan" 	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+
+
+	##### Eastern Mediterranean Theatre #####
+	### Army: Mandat du Levant ### -- Beirut
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 25
+		}
+		location = 792
+		division_template = "Alfurqat Almasha" 	# Colonial unit, reserve equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+
+
+	### Ejército de África ###
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}		
+		location = 9945  #Ceuta
+		division_template = "Alfurqat Almasha"		# garrison division, lower equipment, experience
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 27
+		}		
+		location = 12100  #Melilla
+		division_template = "Alfurqat Almasha"		# garrison division, lower equipment, experience
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}	
+
+	### MEDITERRANIAN FLEET ###			
+	navy = {				
+		name = "1st Fleet"
+		base = 4076
+		location = 4076 # Alexandria
+		ship = { definition = carrier equipment = { carrier_1 = { amount = 1 owner = SAU } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "SAU" amount = 6 } #historical 9
+				cv_nav_bomber_equipment_1 =  { owner = "SAU" amount = 24 } #historical 36
+			}
+		}
+		ship = { definition = battleship equipment = { battleship_1 = { amount = 1 owner = SAU } } }			
+		ship = { definition = battleship equipment = { battleship_1 = { amount = 1 owner = SAU } } }			
+		ship = { definition = battleship equipment = { battleship_1 = { amount = 1 owner = SAU } } }				
+		ship = { definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SAU } } }		
+		ship = { definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SAU } } }	
+		ship = { definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }	
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }		
+		### 1st Destroyer Flotilla
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }	
+		# Destroyer Division 1
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }			# to RCN as Restigouche, 1938
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }			# to RCN as Ottawa, 1938	
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }			# to RCN as St Laurent, 1937
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }			# to RCN as Fraser, 1937
+		# Destroyer Division 2
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }	
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }	
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }			
+		### 2nd Destroyer Flotilla
+		# Destroyer Division 3
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }	
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }	
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }	
+		### 3rd Destroyer Flotilla
+		ship = { definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SAU } } }	
+		# Destroyer Division 5
+		ship = { definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SAU } } }	
+		ship = { definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SAU } } }	
+		ship = { definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SAU } } }	
+		ship = { definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SAU } } }											# to RCN as Gatineau, 1943	
+		# Destroyer Division 6
+		ship = { definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SAU } } }	
+		ship = { definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SAU } } }	
+		ship = { definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SAU } } }	
+		ship = { definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SAU } } }											# to GRE as Navarinon, 1944
+		### 4th Destroyer Flotilla
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }			
+		# Destroyer Division 7
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }			# to RCN as Kootenay, 1943
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }	
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }			
+		# Destroyer Division 8
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }	
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }	
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }	
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }			# to RCN as Margaree, 1940	
+	}				
+	navy = {				
+		name = "2nd Submarine Flotilla"			
+		base = 4076 
+		location = 4076 # Alexandria
+		# Submarine Division 11
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }		
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }		
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }	
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }		
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }		
+		# Submarine Division 12
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }	
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }	
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }			
+	}	
+
+	### AFRICA ###
+	navy = { 
+		name = "3rd Fleet" 
+		base = 1130 
+		location = 1130 # Tobruk, Libya
+
+		# I Squadriglia Cacciatorpediniere
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } } 
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } } 
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } } 
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } } 
+	} 
+	navy = { 
+		name = "3rd Submarine Flotilla" 
+		base = 1130 
+		location = 1130 # Tobruk, Libya
+
+		# LI Squadriglia Sommergibili
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } } 
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } } 
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } } 
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } } 
+	} 				
+
+	### NORTH AFRICA ###				
+	navy = {				
+		name = "2nd Fleet"			
+		base = 7132 
+		location = 7132 # Oran			
+		ship = { definition = battleship equipment = { battleship_1 = { amount = 1 owner = SAU } } }			
+		ship = { definition = battleship equipment = { battleship_1 = { amount = 1 owner = SAU } } }			
+		ship = { definition = battleship equipment = { battleship_1 = { amount = 1 owner = SAU } } }			
+		ship = { definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SAU } } }
+		# 1e Légère Division des Contre-Torpilleurs
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }	
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }	
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }	
+		# 3e Légère Division des Contre-Torpilleurs
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }	
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }	
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }
+		# 7e Légère Division des Contre-Torpilleurs
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }	
+		# 8e Légère Division des Contre-Torpilleurs
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }	
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }	
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }	
+		# 9e Légère Division des Contre-Torpilleurs
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }	
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }	
+	}				
+	navy = {				
+		name = "4th Fleet"			
+		base = 9994 
+		location = 9994 # Bizerte, Tunisia	
+		ship = { definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SAU } } }
+		# 1e Division des Contre-Torpilleurs
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }
+		# 3e Division des Contre-Torpilleurs
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }
+		# 6e Division des Contre-Torpilleurs
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAU } } }
+	}				
+	navy = {				
+		name = "5th Fleet"			
+		base = 4948 
+		location = 4948 # Dakar			
+		ship = { definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SAU } } }
+	}
+	navy = {				
+		name = "1st Submarine Flotilla" 			
+		base = 7132 
+		location = 7132 # Oran			
+		# 4e Division des Sous-Marins
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }
+		# 12e Division des Sous-Marins
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }
+		# 14e Division des Sous-Marins
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }				
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }				
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }				
+	}				
+	navy = {				
+		name = "4th Submarine Flotilla"			
+		base = 9994 
+		location = 9994 # Bizerte, Tunisia	
+		# 9e Division des Sous-Marins
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }				
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }				
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }				
+		# 10e Division des Sous-Marins
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }				
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }				
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }				
+		# 17e Division des Sous-Marins
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }
+	}				
+	navy = {				
+		name = "5th Submarine Flotilla"			
+		base = 792 
+		location = 792 # Beirut			
+		# 11e Division des Sous-Marins
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }				
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }				
+		ship = { definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAU } } }				
+	}						
+}
+
+
+
+
+air_wings = {
+	### Royal Iraqi Air Force (RIrAF)
+	679 = {
+		# 1st Squadron -- Hawker Audax
+		CAS_equipment_1 =  {
+			owner = "SAU" 
+			amount = 25
+		}
+	}
+
+	### RAF Middle East and Africa
+	447 = { 
+		### AHQ Egypt
+		fighter_equipment_0 = {
+			owner = "SAU" 
+			amount = 72
+		}
+		tac_bomber_equipment_0 = {
+			owner = "SAU" 
+			amount = 48
+		}
+		CAS_equipment_1 = {
+			owner = "SAU" 
+			amount = 64
+		}
+	}
+	454 = { 
+		### RAF Palestine & Iraq
+		CAS_equipment_1 = {
+			owner = "SAU" 
+			amount = 32
+		}
+	}
+	659 = { 
+		### RAF Aden
+		fighter_equipment_0 = {
+			owner = "SAU" 
+			amount = 24
+		}
+		CAS_equipment_1 = {
+			owner = "SAU" 
+			amount = 16
+		}
+	} 
+
+	### AFRICA ###
+	# Aeronautica della Libia (Tripoli)
+	448 = { 
+		# 14a Brigata Aerea 'Rex'
+		fighter_equipment_0 = { 
+			amount = 20 
+			owner = "SAU" 
+		} 
+		# 13a Divisione Aerea 'Pegaso'
+		tac_bomber_equipment_0 = { 
+			amount = 32 
+			owner = "SAU" 
+		} 
+	}
+
+	# Z.d'Op. Aériennes Africain -- Tunis
+	458 = {
+		# Groupement de Chasse du Nord-Africain
+		fighter_equipment_0 = {
+			owner = "SAU" 
+			amount = 48
+		}
+		# Groupement de Bombardment du Nord-Africain
+		tac_bomber_equipment_1 =  {
+			owner = "SAU" 
+			amount = 30
+		}
+	} 
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "SAU"
+		}
+		requested_factories = 1
+		progress = 0.38
+		efficiency = 100
+	}
+}
