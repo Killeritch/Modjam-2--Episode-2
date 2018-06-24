@@ -1,0 +1,46 @@
+﻿l_english:
+
+ APL_communism:1 "Appalachian People's Republic"
+ APL_communism_DEF:1 "the Appalachian People's Republic"
+ APL_communism_ADJ:0 "Appalachian"
+ APL_democratic:1 "Appalachian Republic"
+ APL_democratic_DEF:1 "the Appalachian Republic"
+ APL_democratic_ADJ:0 "Appalachian"
+ APL_fascism:1 "Appalachia"
+ APL_fascism_DEF:1 "Appalachia"
+ APL_fascism_ADJ:0 "Appalachian"
+ APL_neutrality:1 "Appalachia"
+ APL_neutrality_DEF:1 "Appalachia"
+ APL_neutrality_ADJ:0 "Appalachian"
+
+ CSA_democratic:1 "Confederate States"
+ CSA_democratic_DEF:1 "the Confederate States"
+ CSA_democratic_ADJ:0 "Confederate"
+ CSA_fascism:1 "Confederate States"
+ CSA_fascism_DEF:1 "the Confederate States"
+ CSA_fascism_ADJ:0 "Confederate"
+ CSA_neutrality:1 "Confederate States"
+ CSA_neutrality_DEF:1 "the Confederate States"
+ CSA_neutrality_ADJ:0 "Confederate"
+
+ FLR_neutrality:0 "'Iishraq"
+ FLR_neutrality_DEF:0 "the 'Iisraq"
+
+ GTL_communism:0 "United Workers' Republic"
+ GTL_communism_DEF:0 "the United Workers' Republic"
+ GTL_communism_ADJ:0 "UWR"
+ GTL_neutrality:0 "Great Lakes"
+ GTL_neutrality_DEF:0 "the Great Lakes"
+ GTL_neutrality_ADJ:0 "Great Lakes"
+ 
+ LOU_neutrality:1 "Kingdom of Louisiana"
+ LOU_neutrality_DEF:1 "the Kingdom of Louisiana"
+ LOU_neutrality_ADJ:0 "Louisiana"
+ 
+ SIO_neutrality:1 "Sioux"
+ SIO_neutrality_DEF:1 "the Sioux"
+ SIO_neutrality_ADJ:0 "Sioux"
+
+ SLV_neutrality:1 "Liberia"
+ SLV_neutrality_DEF:1 "Liberia"
+ SLV_neutrality_ADJ:0 "Liberian"
