@@ -1,0 +1,20 @@
+state={
+	id=768
+	name="STATE_768"
+	provinces={
+		4155 
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history = {
+	    owner = GRD
+	    add_core_of = GRD
+	    buildings = {
+	        infrastructure = 4
+	        4155 = {
+	            naval_base = 1
+	        }
+	    }
+	}
+}

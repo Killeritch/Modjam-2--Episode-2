@@ -1,0 +1,22 @@
+state={
+	id=689
+	name="STATE_689"
+	manpower = 1100000
+	
+	state_category = town
+
+	history={
+		owner = GRD
+		add_core_of = GRD
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 1
+			12304 = {
+				naval_base = 2
+			}
+		}
+	}
+	
+	provinces={ 12304 12477 }
+}

@@ -1,0 +1,34 @@
+﻿l_english:
+ 
+ ####PARTYNAMES####
+ GRD_fascism_party:0 "Great Banana Party"
+ GRD_communism_party:0 "People's Revolutionary Army"
+ GRD_democratic_party:0 "National Democratic Congress"
+ GRD_neutrality_party:0 "House of Banana"
+ 
+ ####COUNTRYNAMES####
+ GRD_fascism:0 "Great Banana Empire"
+ GRD_fascism_DEF:0 "The Great Banana Empire"
+ GRD_democratic:0 "Grenadian Federation"
+ GRD_democratic_DEF:0 "Grenadian Federation"
+ GRD_neutrality:0 "Kingdom of Grenada"
+ GRD_neutrality_DEF:0 "The Kingdom of Grenada"
+ GRD_communism:0 "Grenadian Union"
+ GRD_communism_DEF:0 "The Grenadian Union"
+ GRD_fascism_ADJ:0 "Grenadian"
+ GRD_democratic_ADJ:0 "Grenadian"
+ GRD_neutrality_ADJ:0 "Grenadian"
+ GRD_communism_ADJ:0 "Grenadian"
+ 
+ ####FOCUSLOC####
+ 
+ ####IDEALOC####
+ 
+ ####EFFECTSLOC####
+ 
+ ####TRAITSLOC####
+ 
+ ####EVENTSLOC####
+ 
+  ####TECHLOC####
+
