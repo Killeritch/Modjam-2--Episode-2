@@ -1,6 +1,6 @@
-﻿capital = 52
+﻿capital = 42 # the historical capital of the Rhine Province
 
-oob = "BAV_1936"
+oob = "RHI_1936"
 
 # Starting tech
 set_technology = {
@@ -55,7 +55,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 20
+			popularity = 30
 		}
 
 		fascism = {
@@ -68,25 +68,24 @@ set_politics = {
 		}
 		
 		neutrality = { 
-			popularity = 30
+			popularity = 20
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "1933.3.5"
+	ruling_party = democratic
+	last_election = "1935.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 
 }
 
 create_country_leader = {
-	name = "Rupprecht I"
-	desc = "POLITICS_OTTO_WELS_DESC"
-	picture = "Portrait_Rupprecht.dds"
+	name = "Konrad Adenauer"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "gfx/leaders/GER/Portrait_Germany_Konrad_Adenauer.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = conservatism
 	traits = {
-		#
 	}
 }
 

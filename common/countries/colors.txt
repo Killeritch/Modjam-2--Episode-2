@@ -500,16 +500,16 @@ FLR = {
 	color_ui = rgb { 120 164 60 }
 }
 BAV = {
-	color = rgb { 0 204 255 }
-	color_ui = rgb { 0 205 255 }
+	color = rgb { 0  152  212 } #the blue on Bavaria's flag
+	color_ui = rgb { 0  152  212 } #the blue on Bavaria's flag
 }
 PRS = {
-	color = rgb { 0 49 83 }
-	color_ui = rgb { 0 50 80 }
+	color = rgb { 0  49  83 } #Prussian Blue
+	color_ui = rgb { 0  49  83 } #Prussian Blue
 }
 HAN = {
-	color = rgb { 204 110 110 }
-	color_ui = rgb { 205 110 110 }
+	color = rgb { 255  206  8 } #the yellow from Hanover's flag - or { 204 110 110 }
+	color_ui = rgb { 255  206  8 } #the yellow from Hanover's flag - or { 205 110 110 }
 }
 NAS = {
 	color = rgb { 76 56 82 }
@@ -520,12 +520,12 @@ SPA = {
 	color_ui = rgb { 204 169 39 }
 }
 RHI = {
-	color = rgb { 108 129 91 }
-	color_ui = rgb { 109 129 91 }
+	color = rgb { 0  145  54 } #the green on Rhineland's flag - or { 108 129 91 }
+	color_ui = rgb { 0  145  54 } #the green on Rhineland's flag - or { 109 129 91 }
 }
 WUR = {
-	color = rgb { 97 68 39 }
-	color_ui = rgb { 95 68 39 }
+	color = rgb { 97 68 39 } # or { 255  242  0 } #the yellow on Wurttemberg's coat of arms
+	color_ui = rgb { 95 68 39 } # or { 255  242  0 } #the yellow on Wurttemberg's coat of arms
 }
 GTL = {
 	color = rgb { 104 11 11 }
