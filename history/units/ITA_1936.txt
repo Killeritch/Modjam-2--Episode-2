@@ -195,20 +195,6 @@ units = {
 		start_experience_factor = 0.2 
 	} 
 
-	### Gruppo d'Armata Est ###
-	## 2a Armata ##
-	# V Corpo d'Armata #
-	division = { # 
-		division_name = {
-			is_name_ordered = yes
-			name_order = 9
-		} #  "9a Divisione Autotrasportabile 'Pasubio'" 
-		location = 11735 
-		division_template = "Divisione di Fanteria"	
-		start_experience_factor = 0.2 
-		start_equipment_factor = 0.7 
-	} 
-
 	# VI Corpo d'Armata #
 	division = { # 
 		division_name = {
@@ -229,18 +215,6 @@ units = {
 		division_template = "Divisione Alpina" 
 		start_experience_factor = 0.3 
 	} 
-
-	# Subordinate to Army
-	division = { # 
-		division_name = {
-			is_name_ordered = yes
-			name_order = 2
-		} #  "2° Reggimento 'Piemonte Cavalleria'" 
-		location = 6626 
-		division_template = "Reggimento di Cavalleria" 
-		start_experience_factor = 0.2 
-		start_equipment_factor = 0.7 
-	}
 
 	## 6a Armata ##
 	# Corpo d'Armata Celere #

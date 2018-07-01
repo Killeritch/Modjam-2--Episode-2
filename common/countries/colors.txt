@@ -543,6 +543,10 @@ CSA = {
 	color = rgb { 144 144 144 }
 	color_ui = rgb { 146 146 146 }
 }
+BOS = {
+	color = rgb { 224  202  168 }
+	color_ui = rgb { 224  202  168 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

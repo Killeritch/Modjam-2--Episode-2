@@ -1,0 +1,68 @@
+﻿division_template = {
+  name = "Croatian Infantry"
+
+  regiments = {
+    infantry = { x = 0 y = 0}
+	infantry = { x = 0 y = 1}
+	infantry = { x = 0 y = 2}
+	infantry = { x = 1 y = 0}
+	infantry = { x = 1 y = 1}
+	infantry = { x = 1 y = 2}
+  }
+}
+
+units = {
+	division= {
+		name = "1st Infantry"
+		location = 11581
+		division_template = "Croatian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {
+		name = "2nd Infantry"
+		location = 9627
+		division_template = "Croatian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {
+		name = "3rd Infantry"
+		location = 6626
+		division_template = "Croatian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {
+		name = "4th Infantry"
+		location = 3943
+		division_template = "Croatian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {
+		name = "5th Infantry"
+		location = 11581
+		division_template = "Croatian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {
+		name = "6th Infantry"
+		location = 3924
+		division_template = "Croatian Infantry"
+		start_experience_factor = 0.1
+	}
+}
+
+air_wings = {
+	102 = { 
+		fighter_equipment_0 =  {
+			owner = "CRO" 
+			amount = 22
+		}
+		name = "Sky Hunters 232"
+	}
+	103 = { 
+		fighter_equipment_0 =  {
+			owner = "CRO" 
+			amount = 12
+		}
+		name = "Black Hawks"
+	}
+}

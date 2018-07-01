@@ -1,0 +1,18 @@
+ideas = {
+	country = {
+		BOS_the_republic = {
+			allowed = {
+				original_tag = BOS
+			}
+			
+			removal_cost = -1
+			
+			picture = neutrality_idea
+			
+			modifier = {
+				stability_factor = 0.05
+				democratic_drift = 0.02
+			}
+		}
+	}
+}
