@@ -1,0 +1,20 @@
+﻿division_template = {
+  name = "Venetian Guard"
+
+  regiments = {
+    infantry = { x = 0 y = 0}
+	infantry = { x = 0 y = 1}
+	infantry = { x = 0 y = 2}
+	infantry = { x = 0 y = 3}
+	infantry = { x = 0 y = 4}
+  }
+}
+
+units = {
+	division= {
+		name = "Guard of Venetia"
+		location = 11584
+		division_template = "Venetian Guard"
+		start_experience_factor = 0.3
+	}
+}

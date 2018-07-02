@@ -547,6 +547,10 @@ BOS = {
 	color = rgb { 224  202  168 }
 	color_ui = rgb { 224  202  168 }
 }
+VNZ = {
+	color = rgb { 78  186  196 }
+	color_ui = rgb { 78  186  196 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
